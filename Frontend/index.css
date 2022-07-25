@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	box-sizing: border-box;
+}
+
+.searchbar{
+	color:white;
+	font-size: 12px;
+	padding:15px 0 20px 6px;
+}
+
+.searchbtn{
+	background: rgb(128, 128, 128);
+	border-radius: 6px;
+}
+.sidemenu{
+	height: 270px;
+	width: 250px;
+	position:absolute;
+	background-color: rgb(178, 188, 190);
+	z-index: 1;
+	transition: 0.5s ease;
+	transform: translateX(0);
+	border-radius: 5px;
+}
+
+.heading{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 30px 30px 10px 30px ;
+	text-align: center;
+}
+
+li{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	list-style: none;
+	display: block;
+	text-align: center;
+	padding: 10px 35px 10px 0;
+}
+
+li:hover{
+	background: rgb(146, 182, 189);
+	letter-spacing: 1px;
+	transition: all;
+	cursor: pointer;
+}
