@@ -1,0 +1,69 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.loginpage{
+    width: 320px;
+    height: 420px;
+    border: 2px solid black;
+    background:rgb(178, 188, 190);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding:20px 0 60px;
+}
+
+.loginpage p{
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: bold;
+}
+
+.loginpage input{
+    width:90%;
+    margin-bottom: 20px;
+}
+
+.username , .password{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 35px;
+}
+
+.loginpage input[type="submit"]{
+    border: none;
+    outline: none;
+    margin: 0 20px 20px 20px;
+    height: 40px;
+    background-color: #ff4646;
+    color:aliceblue;
+    border-radius: 10px;
+}
+
+.loginpage input[type="submit"]:hover{
+    cursor: pointer;
+    background:#ff0000;
+    color:black;
+}
+.loginpage a{
+    text-decoration: none;
+    margin: 0 20px 0 22px;
+    line-height: 20px;
+}
+
+.loginpage a:hover{
+    color:rgb(0, 18, 175);
+}
