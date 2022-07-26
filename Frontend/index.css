@@ -9,7 +9,13 @@ body{
 .searchbar{
 	color:white;
 	font-size: 12px;
-	padding:15px 0 20px 6px;
+	padding:15px 0 20px 280px;
+}
+
+.searchbar input[type="text"]{
+	width: 500px;
+	height: 25px;
+	margin: 0 0 0 6px;
 }
 
 .searchbtn{
@@ -17,7 +23,7 @@ body{
 	border-radius: 6px;
 }
 .sidemenu{
-	height: 270px;
+	height: 370px;
 	width: 250px;
 	position:absolute;
 	background-color: rgb(178, 188, 190);
@@ -25,6 +31,7 @@ body{
 	transition: 0.5s ease;
 	transform: translateX(0);
 	border-radius: 5px;
+	margin-top: 15px;
 }
 
 .heading{
@@ -50,3 +57,51 @@ li:hover{
 	transition: all;
 	cursor: pointer;
 }
+
+.adsrow1{
+	display: flex;
+	position: absolute;
+	justify-content: space-between;
+}
+.ad1{
+	background: white;
+	height: 250px;
+	width:400px;
+	margin: 15px;
+	position: relative;
+	left:315px;
+	border-radius: 5px;
+}
+
+.ad2{
+	background: white;
+	height: 250px;
+	width: 400px;
+	margin: 15px;
+	position: relative;
+	left:345px;
+	border-radius: 5px;
+}
+
+@media (max-width: 769px) {
+	.sidemenu,
+	.adsrow1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 2000px;
+	}
+	.adsrow1{
+		position: relative;
+		top: 290px;
+		align-items: center;
+		justify-content: center;
+		margin: o;
+		padding: 0;
+	}
+
+
+}
+
