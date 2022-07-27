@@ -171,7 +171,7 @@ p{
 .box:hover{
 	cursor: pointer;
 	transform: scale(1.1);
-	transition-duration: 2s;
+	transition-duration: 1s;
 }
 
 .itemss:hover{
