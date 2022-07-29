@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="accordion">
+		<div class="contentbx">
+			<div class="label">How to add post</div>
+			<div class="content">
+			<p>kohomada add krnne kiyl methn dann </p>
+
+			</div>
+		</div>
+		
+		<div class="contentbx">
+			<div class="label">How to Delet post</div>
+			<div class="content">
+			<p>kohomada delet krnne kiyl methn dann </p>
+
+			</div>
+		</div>
+		
+		<div class="contentbx">
+			<div class="label">How to buy</div>
+			<div class="content">
+			<p>kohomada buy krnne kiyl methn dann hee hee</p>
+
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		const accordion = document.getElementsByClassName
+		("contentbx");
+		for(i=0;i<accordion.length;i++){
+			accordion[i].addEventListener("click",function(){
+			this.classList.toggle("active")})
+			}
+	</script>	
+</body>
+</html>
