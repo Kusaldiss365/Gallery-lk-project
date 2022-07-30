@@ -42,7 +42,7 @@ body{
 	text-align: center;
 }
 
-li{
+.sidemenu li{
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	list-style: none;
@@ -51,7 +51,7 @@ li{
 	padding: 10px 35px 10px 0;
 }
 
-li:hover{
+.sidemenu li:hover{
 	background: rgb(146, 182, 189);
 	letter-spacing: 1px;
 	transition: all;
@@ -73,35 +73,9 @@ li:hover{
 	border-radius: 5px;
 }
 
-.ad2{
-	background: white;
-	height: 250px;
-	width: 400px;
-	margin: 15px;
-	position: relative;
-	left:345px;
-	border-radius: 5px;
+.ad1 img{
+	padding:30px 0 0 10px;
 }
 
-@media (max-width: 769px) {
-	.sidemenu,
-	.adsrow1 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		margin: 0 auto;
-		max-width: 2000px;
-	}
-	.adsrow1{
-		position: relative;
-		top: 290px;
-		align-items: center;
-		justify-content: center;
-		margin: o;
-		padding: 0;
-	}
 
-
-}
 
