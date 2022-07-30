@@ -7,13 +7,13 @@ body {
 
 .signuppage{
     width: 400px;
-    height: 510px;
+    height: 650px;
     border: 2px solid black;
     background:rgb(178, 188, 190);
     position:absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-40%);
     box-sizing:border-box;
     border-radius: 10px;
 }
@@ -35,7 +35,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.username , .password{
+.firstname, .lastname, .phonenumber, .email, .password{
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
