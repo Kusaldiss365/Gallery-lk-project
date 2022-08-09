@@ -63,19 +63,19 @@ body{
 	position: absolute;
 	justify-content: space-between;
 }
-.ad1{
-	background: white;
-	height: 250px;
-	width:400px;
-	margin: 15px;
-	position: relative;
-	left:315px;
-	border-radius: 5px;
+
+#ad_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.ad1 img{
-	padding:30px 0 0 10px;
-}
-
-
+#ad_container div{
+		padding: 3rem;
+		background: rgb(255, 255, 255);
+		margin: 0.5rem;
+		border-radius: 10px;
+		color: #fff;
+		font-size: 1.2rem;
+		text-align: center;
+	}
 
