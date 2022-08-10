@@ -1,4 +1,4 @@
-* {
+{* 
 	box-sizing: border-box;
 }
 
@@ -235,7 +235,7 @@ input{
   .button2{
 	background-color: rgb(119, 28, 28);
 	border-radius: 10px;
-	width: 80px;
+	width: 100px;
   }
   .button2:hover{
 	background-color: rgb(1, 3, 5);
