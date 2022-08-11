@@ -1,0 +1,256 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+
+.header {
+	
+	width: 100vw;
+	height: 70px;
+	border: 1px solid #a2a2a2;
+	background-color: #505050;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.logo {
+	margin: 0;
+	margin-top: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
+.main-nav {
+	margin-top: 5px;
+	
+}
+.logo a,.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #f6f6fa;
+	font-size: .99em;
+	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #020202;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropbtn {
+    background-color: transparent;
+	margin: 10px;
+    padding: 0px;
+    width: 50px;
+	margin-right: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown1 {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    font-size: 15px;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(218, 218, 218, 0.2);
+    z-index: 1;
+	border-radius: 5px;
+  }
+  
+  .dropdown1 a {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown1 a:hover {
+	background-color: #ffffff
+}
+  
+  
+  .dropdown:hover .dropdown1 {
+    display: block;
+  }
+
+
+
+.profile{
+    background-color: #020202;
+	display:flex ;
+	align-items: flex-start;
+	justify-content: flex-start;
+	
+}
+.pic{
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 35px;
+	cursor: pointer;
+
+}
+
+p{
+	color: white;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.uname{
+	color: rgb(255, 255, 255);
+	height: 10px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+	height: 100vh;
+}
+
+  .box1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1050px;
+	height: 550px;
+	margin-left: 25px;
+	border-radius: 15px;
+	background-color: grey;
+	padding: 0px 250px 0px 50px;
+  }
+
+ .image{
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+ }
+.itms1{
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+	margin: left;
+	background-image: url("itms/1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text{
+	
+    width: 600px;
+	margin-right: -150px;
+	font-family: Ubuntu;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	
+ }
+
+table{
+	width: 100%;
+	margin-left: 20px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+}
+table tr th{
+
+	margin: 10px 100px 0px 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+
+ }
+
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+    width: 200px;
+	margin-top: 100px;
+}
+
+
+.btn2{
+    width: 150px;
+	height: 50px;
+   	background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.btnstyle{
+	font-family: Ubuntu;
+	font-size: 12px;
+	text-decoration: none;	
+	text-transform: uppercase;
+}
+.favbutton{
+    background-color: yellow;
+    border: #000000 solid;
+    border-radius: 50%;
+}
+.star{
+    width: 30px;
+}
+
+ .btn .btn2 a{
+	font-weight: 900;
+	color: rgb(0, 0, 0);
+ }
+ 
+ @media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 2000px;
+	}
+
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
