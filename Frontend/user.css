@@ -89,8 +89,8 @@ ul {
 	
 	width: 100vw;
 	height: 70px;
-	border: 1px solid #a2a2a2;
-	background-color: #505050;
+	border: 1px solid rgb(31, 70, 144);
+	background-color: rgb(31, 70, 144);
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
@@ -99,7 +99,7 @@ ul {
 	border-radius: 5px;
 }
 .profile{
-    background-color: #020202;
+    background-color: white;
 	display:flex ;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -125,7 +125,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-	background: black;
+	background: white;
 	height:100vh;
 }
 
@@ -167,8 +167,8 @@ p{
 	width: 280px;
 	height: 180px;
 	margin: 15px 25px;
-	border-radius: 50%;
-	background-color: grey;
+	border-radius: 5%;
+	background-color: rgb(159, 212, 255);
   }
 .box:hover{
 	cursor: pointer;
